@@ -1,0 +1,50 @@
+
+.nav-item {
+    padding: 2em;
+}
+
+.jumbotron {
+    background-image: url(./assets/chickInnHeader.jpg);
+    width: 100vw;
+    height: 100mm;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form-control {
+    margin: 5px;
+}
+
+.col-md-6 {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+/* 
+.col-sm-4 {
+    border: solid lightgray 1px;
+} */
+
+.social_media {
+    text-align: center;
+}
+.legal {
+    text-align: right;
+}
+
+ul#social li {
+    display: inline;
+    padding:20px;
+    padding-top: 15px;
+    padding-bottom: 15ps;
+
+}
+

@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" ref="text/css" href="./index.css" />
+    <title>Baylor's Chick Inn</title>
+  </head>
+  <body>
+
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img src="./assets/ChickInn.png" class="logo" width="150" height="100"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./home.html">HOME</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./meetTheLadies.html">Meet the Ladies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./socialChicks.html">Social Chicks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./chickGear.html">Chick Gear</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./eggspertRecipesAndAdvice.html">Eggs-pert Recipes & Advice</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+
+
+    <!-- JUMBOTRON -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Baylor's Chick Inn</h1>
+        <p class="lead">We believe chickens who have fun make better eggs.</p>
+      </div>
+    </div>
+
+    <!-- ROTATING CONTENT -->
+
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">          
+            <img src="./assets/chickenJumbotron.jpg" class="chickenHeadshot" alt id="chicken" width="300" height="222">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-9">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"> Fun Fact</h5>
+            <p class="card-text">According to a network of chicken farmers called The Happy Chicken Coop, it's all about the bloom. The bloom is the thin clear layer surrounding your farm fresh eggs, which is washed from your eggs before they are shipped to the store.  If left in tact, your eggs remain protected for months from germs and bacteria that can be absorbed through the shell. </p>
+            <p class="card-text">Baylor's Chick Inn leaves the bloom in tact after harvesting. Your fresh eggs have been harvested within 7 days of delivery and immediately refrigerated.  We recommend you eat them within 2 weeks for the best taste, but they are able to be stored unwashed in the refrigerator for up to 6 MONTHS!
+            </p>
+            <p class="card-text"><strong>IMPORTANT: </strong>Since the Bloom has been protecting your eggs from germs, it’s very important that you <strong>wash your eggs before preparing</strong>.</p>
+
+
+            <a href="./eggspertRecipesAndAdvice.html" class="btn btn-primary">Eggs-pert Recipes & Advice</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE LINKS -->
+
+
+    <!-- ORDERING-->
+    <div class = "row">
+
+    <!-- PRICING -->
+    <div class="col-md-5">
+    <div class="table-responsive"></div>
+    <table class="table caption-top">
+      <caption>Pricing</caption>
+      <thead>
+        <tr>
+          <th scope="col">Quantity</th>
+          <th scope="col">Size</th>
+          <th scope="col">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1 dozen</th>
+          <td>Large</td>
+          <td>$4.00</td>
+        </tr>
+        <tr>
+          <th scope="row">1 dozen</th>
+          <td>Medium</td>
+          <td>$3.00</td>
+        </tr>
+        <tr>
+          <th scope="row">1 dozen</th>
+          <td>Small</td>
+          <td>$2.50</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+    <!-- CONTACT US -->
+
+    <div class="col-md-5">
+
+    <form action="https://formspree.io/f/mleozowa" method="POST">
+      <div class="row">
+          <p><caption> Place an Order</caption></p>
+      <div class="col-md-6">
+            <input type="text" class="form-control" id="firstname" placeholder="First Name">
+          
+            <input type="text" class="form-control" id="lastname" placeholder="Last Name">
+          
+            <input type="email" name="_replyto" class="form-control" id="email" placeholder="Email">
+
+            <input type="text" class="form-control" id="phonenumber" placeholder="Phone Number">
+      </div>
+      <div class="col-md-6">
+            <input type="text" class="form-control" id="Quantity" placeholder="Quantity">
+          
+            <input type="text" class="form-control" id="Size" placeholder="Size">
+          
+            <input type="email" name="_replyto" class="form-control" id="email" placeholder="Comments">
+
+            <button type="submit" class="btn btn-primary" id="order">Submit</button>
+      </div>   
+    </table> 
+    </div>
+  </form>
+   </div>
+  </div>
+</div>
+</div>
+</div>
+
+    <!-- FOOTER -->
+<div class="footer">
+<div class="row">
+  <div class="col-sm-4">
+  <!-- <div class="navigation">
+<ul>
+  <li>Home</li>
+  <li>Home</li>
+  <li>Home</li>
+  <li>Home</li>
+</ul>
+  </div> -->
+</div>
+  <div class="col-sm-4">
+  <div class="social_media">
+    <ul id="social">
+    
+      <li>
+        <a href ="https://www.instagram.com/baylorschickinn/">
+          <img src ="./assets/iconfinder_1_Instagram_colored_svg_1_5296765.png" width="25px" height="25px">
+        </a>
+      </li>
+      <li>
+        <a href ="https://www.pinterest.com/baylormercer/_saved/">
+        <img src ="./assets/iconfinder_1_Pinterest_colored_svg_5296503.png" width="25px" height="25px">
+      </a>
+    </li>
+      <li>
+        <a href ="https://twitter.com/BaylorsI">
+        <img src ="./assets/iconfinder_1_Twitter3_colored_svg_5296516.png"  width="25px" height="25px">
+      </a>
+    </li>
+      <li>
+        <a href ="https://www.facebook.com/BaylorsChickInn">
+        <img src ="./assets/iconfinder_Colored_Facebook3_svg_5365678.png"  width="25px" height="25px">
+      </a>
+    </li>
+    </ul>
+  </div>
+</div>
+  <div class="col-sm-4">
+  <!-- <div class="legal">
+    <ul>
+      <li>Home</li>
+      <li>Home</li>
+      <li>Home</li>
+      <li>Home</li>
+    </ul>
+  </div> -->
+</div>
+</div>
+</div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+  <script src="./index.js"></script>
+</html>
